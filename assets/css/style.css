@@ -71,12 +71,48 @@ p {
 }
 
 .bold {
-    font-family: 'p-700';
+    font-family: 'p-700' !important;
 }
 
 p.thin {
     font-size: 14px;
     font-family: 'p-300';
+}
+
+.p-14px {
+   font-size: 14px; 
+}
+
+.z-1 {
+    z-index: -1;
+}
+
+.absolute {
+    position: absolute
+}
+
+.relative {
+    position: relative
+}
+
+.mb-120px {
+    margin-bottom: 120px;
+}
+
+.mb-70px {
+    margin-bottom: 70px;
+}
+
+.mb-60px {
+    margin-bottom: 60px;
+}
+
+.mb-30px {
+    margin-bottom: 30px;
+}
+
+.nick-white {
+    color: #FFFFFF;
 }
 
 .btn {
@@ -87,18 +123,18 @@ p.thin {
     font-size: 14px;
 }
 
-.btn-purple {
+.bg-purple {
     background: linear-gradient(95.4deg, #B283E3 -5.97%, #8C35C4 103.88%);
 }
 
-.btn-pink {
+.bg-pink {
     background: linear-gradient(86.2deg, #FF94CB -6.15%, #FF46A5 108.47%);
 }
 
 .form-control {
     border-radius: 40px;
     border: 3px solid #000000;
-    padding: 18px 24px;
+    padding: 12px 24px;
 }
 
 .form-control:focus {
@@ -109,6 +145,7 @@ p.thin {
 .form-control-white {
     border: 3px solid #FFFFFF !important;
     background-color: unset !important;
+    color: white;
 }
 
 .input-group-text {
@@ -136,6 +173,7 @@ p.thin {
     position: absolute;
     width: 227px;
     height: 253px;
+    border-radius: 10px;
 }
 
 .pict-member {
@@ -195,4 +233,20 @@ p.thin {
 
 #hero {
     padding: 120px 0;
+}
+
+.pad-shorten-area {
+    padding: 400px 0 200px 0;
+}
+
+.illustration-info {
+    top: -20px;
+}
+
+.data-info {
+    margin-top: 55%;
+}
+
+#member {
+    padding: 180px 0;
 }
