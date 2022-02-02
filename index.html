@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,23 +9,32 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="assets/js/bootstrap.min.js"></script>
-    
+
 </head>
+
 <body>
-    <!-- navbar -->
-    <section>
-        <nav class="navbar">
-            <div class="container">
-              <a class="navbar-brand">
-                  <img src="assets/img/logo/unguin.svg" alt="">
-              </a>
-              <div class="d-flex">
-                  <a href="#" class="btn bg-purple me-3">Daftar</a>
-                  <a href="#" class="btn bg-pink">Masuk</a>
-              </div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo/unguin.svg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="d-flex ms-auto btn-auth">
+                    <div>
+                        <a href="#" class="btn bg-purple me-3 btn-register">Daftar</a>
+                    </div>
+                    <div>
+                        <a href="#" class="btn bg-pink">Masuk</a>
+                    </div>
+                </div>
             </div>
-          </nav>
-    </section>
+        </div>
+    </nav>
 
     <!-- hero -->
     <section id="hero" class="hero">
@@ -32,83 +42,116 @@
             <div class="row">
                 <div class="col-md-6">
                     <h1>Link tuh ringkas, ga ribet!</h1>
-                    <p>Pastikan alamat website kamu dikemas secara aethetic dengan bantuan ungu.in tanpa bikin jari keriting dan perut pusing.</p>
+                    <p>Pastikan alamat website kamu dikemas secara aethetic dengan bantuan ungu.in tanpa bikin jari
+                        keriting dan perut pusing.</p>
                 </div>
-                <div class="col-md-6"></div>
+                <div class="col-md-6">
+
+                </div>
             </div>
         </div>
     </section>
 
     <!-- shorten-link area -->
     <section id="shorten-area" class="shorten-area relative">
-        <img class="absolute w-100 z-1" src="assets/img/wave-landing-page.svg" alt="">
-        <div class="container pad-shorten-area">
-            <div class="row mb-70px">
-                <div class="col-md-6">
-
+        <img class="absolute z-1 wave-landing" src="assets/img/wave-landing-page.svg" alt="">
+        <div class="pad-shorten-area">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="result-link">
+                            <span>ungu.in/ngopi-bang</span>
+                            <span class="result-link-copy">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-files" viewBox="0 0 16 16">
+                                    <path
+                                        d="M13 0H6a2 2 0 0 0-2 2 2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2 2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm0 13V4a2 2 0 0 0-2-2H5a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1zM3 4a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4z" />
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="make-link">
+                            <h2 class="text-center nick-white mb-60px">Cus isi di bawah</h2>
+                            <div class="mb-30px">
+                                <input type="text" name="" id="" class="form-control form-control-white"
+                                    placeholder="Ketikkan link panjangmu">
+                            </div>
+                            <div class="input-group mb-30px">
+                                <span class="input-group-text" id="basic-addon1">ungu.in/</span>
+                                <input type="text" class="form-control form-control-white"
+                                    placeholder="Ketikkan link singkatmu">
+                            </div>
+                            <div class="text-center">
+                                <button class="btn bg-pink">Yuk</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <h2 class="text-center nick-white mb-60px">Cus isi di bawah</h2>
-                    <div class="mb-30px">
-                        <input type="text" name="" id="" class="form-control form-control-white" placeholder="Ketikkan link panjangmu">
-                    </div>
-                    <div class="mb-30px">
-                        <input type="text" name="" id="" class="form-control form-control-white" placeholder="Ketikkan link panjangmu">
-                    </div>
-                    <div class="text-center">
-                        <button class="btn bg-pink">Yuk</button>
-                    </div>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="circle relative text-center flex-center">
-                        <img class="illustration-info absolute" src="assets/img/illustration-info-user.svg" alt="">
-
+                <div class="row data-info-wrapper flex-center">
+                    <div class="col-md-4 col-6 circle-wrapper">
+                        <div class="relative text-center flex-center">
+                            <img class="z-1 absolute circle-info" src="assets/img/ellipse.svg" alt="">
+                            <img class="illustration-info absolute" src="assets/img/illustration-info-user.svg" alt="">
+                        </div>
                         <div class="data-info">
                             <h3 class="nick-white">3000</h3>
                             <p class="nick-white">Pengguna aktif</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="circle relative text-center flex-center">
-                        <img class="illustration-info absolute" src="assets/img/illustration-info-link.svg" alt="">
-
+                    <div class="col-md-4 col-6 circle-wrapper">
+                        <div class="relative text-center flex-center">
+                            <img class="z-1 absolute circle-info" src="assets/img/ellipse.svg" alt="">
+                            <img class="illustration-info absolute" src="assets/img/illustration-info-link.svg" alt="">
+                        </div>
                         <div class="data-info">
                             <h3 class="nick-white">25000</h3>
                             <p class="nick-white">Link aesthetic dibuat</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="circle relative text-center flex-center">
-                        <img class="illustration-info absolute" src="assets/img/illustration-info-business.svg" alt="">
-
+                    <div class="col-md-4 col-6 circle-wrapper">
+                        <div class="relative text-center flex-center">
+                            <img class="z-1 absolute circle-info" src="assets/img/ellipse.svg" alt="">
+                            <img class="illustration-info absolute" src="assets/img/illustration-info-business.svg"
+                                alt="">
+                        </div>
                         <div class="data-info">
                             <h3 class="nick-white">85%</h3>
                             <p class="nick-white">Meningkatkan bisnis</p>
                         </div>
                     </div>
+
                 </div>
             </div>
-        </div>
     </section>
 
     <!-- user -->
     <section id="user" class="user">
         <div class="container text-center">
             <h1 class="mb-60px">Telah digunakan oleh</h1>
-            <div class="d-flex mb-60px">
-                <img class="me-5" src="assets/img/logo/amikom.svg" alt="">
-                <img class="me-5" src="assets/img/logo/amikom.svg" alt="">
-                <img class="me-5" src="assets/img/logo/amikom.svg" alt="">
-                <img class="me-5" src="assets/img/logo/amikom.svg" alt="">
-                <img class="me-5" src="assets/img/logo/amikom.svg" alt="">
-                <img class="me-5" src="assets/img/logo/amikom.svg" alt="">
+            <div class="row mb-60px">
+                <div class="col-md-2 col-4 mb-4">
+                    <img class="w-100" src="assets/img/logo/amikom.svg" alt="">
+                </div>
+                <div class="col-md-2 col-4 mb-4">
+                    <img class="w-100" src="assets/img/logo/amikom.svg" alt="">
+                </div>
+                <div class="col-md-2 col-4 mb-4">
+                    <img class="w-100" src="assets/img/logo/amikom.svg" alt="">
+                </div>
+                <div class="col-md-2 col-4 mb-4">
+                    <img class="w-100" src="assets/img/logo/amikom.svg" alt="">
+                </div>
+                <div class="col-md-2 col-4 mb-4">
+                    <img class="w-100" src="assets/img/logo/amikom.svg" alt="">
+                </div>
+                <div class="col-md-2 col-4 mb-4">
+                    <img class="w-100" src="assets/img/logo/amikom.svg" alt="">
+                </div>
             </div>
-            <p class="mb-30px">Kreasikan link aestheticmu dan dapatkan kebebasan dalam mengelola link menggunakan fitur dashboard yang secara gratis bisa kamu nikmati dengan menjadi bagian dari ungu.in.</p>
+            <p class="mb-30px">Kreasikan link aestheticmu dan dapatkan kebebasan dalam mengelola link menggunakan fitur
+                dashboard yang secara gratis bisa kamu nikmati dengan menjadi bagian dari ungu.in.</p>
             <a href="#" class="btn bg-pink">Bergabung</a>
         </div>
     </section>
@@ -117,7 +160,10 @@
     <section id="member" class="member text-center">
         <div class="container">
             <h1 class="mb-30px">Mau kenalan?</h1>
-            <p class="mb-120px">Komunitas open source yang dibentuk pada saat April MOP 2021 yang dikenal dengan nama OSORA. Dipelopori oleh 3 orang beranggotakan Muh Zaki Choiruddin Rizky Oktafian Nur Muhammad, Meisha Afifah Putri yang penuh ide namun miskin eksekusi, dan pada akhirnya dipertemukan dalam berbagai projek dengan sejuta manfaat.</p>
+            <p class="mb-120px">Komunitas open source yang dibentuk pada saat April MOP 2021 yang dikenal dengan nama
+                OSORA. Dipelopori oleh 3 orang beranggotakan Muh Zaki Choiruddin Rizky Oktafian Nur Muhammad, Meisha
+                Afifah Putri yang penuh ide namun miskin eksekusi, dan pada akhirnya dipertemukan dalam berbagai projek
+                dengan sejuta manfaat.</p>
             <div class="row">
                 <div class="col-md-4 flex-center">
                     <div class="box-pict-member flex-center">
@@ -146,4 +192,5 @@
         <p class="p-14px bold mb-0">Developed by OSORA</p>
     </footer>
 </body>
+
 </html>
