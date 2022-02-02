@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'p-reg';
+}
+
+/* font */
+@font-face {
+    font-family: p-reg;
+    font-display: auto;
+    font-style: normal;
+    src: url('../font/poppins-v15-latin-regular.ttf') format('truetype'),
+    url('../font/poppins-v15-latin-regular.eot') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/poppins-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../font/poppins-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../font/poppins-v15-latin-regular.svg') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: p-500;
+    font-display: auto;
+    font-style: normal;
+    src: url('../font/poppins-v15-latin-500.ttf') format('truetype'),
+    url('../font/poppins-v15-latin-500.eot') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/poppins-v15-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../font/poppins-v15-latin-500.woff') format('woff'), /* Modern Browsers */
+    url('../font/poppins-v15-latin-500.svg') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: p-700;
+    font-display: auto;
+    font-style: normal;
+    src: url('../font/poppins-v15-latin-700.ttf') format('truetype'),
+    url('../font/poppins-v15-latin-700.eot') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/poppins-v15-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../font/poppins-v15-latin-700.woff') format('woff'), /* Modern Browsers */
+    url('../font/poppins-v15-latin-700.svg') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: p-300;
+    font-display: auto;
+    font-style: normal;
+    src: url('../font/poppins-v15-latin-300.ttf') format('truetype'),
+    url('../font/poppins-v15-latin-300.eot') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/poppins-v15-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../font/poppins-v15-latin-300.woff') format('woff'), /* Modern Browsers */
+    url('../font/poppins-v15-latin-300.svg') format('svg'); /* Legacy iOS */
+}
+
+/* typography */
+h1 {
+    font-size: 50px;
+    font-family: 'p-700';
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'p-700';
+}
+
+h3 {
+    font-size: 24px;
+    font-family: 'p-700';
+}
+
+p {
+    font-size: 16px;
+}
+
+.bold {
+    font-family: 'p-700';
+}
+
+p.thin {
+    font-size: 14px;
+    font-family: 'p-300';
+}
+
+.btn {
+    padding: 19px 52px;
+    border-radius: 40px;
+    color: #FFFFFF;
+    font-family: 'p-700';
+    font-size: 14px;
+}
+
+.btn-purple {
+    background: linear-gradient(95.4deg, #B283E3 -5.97%, #8C35C4 103.88%);
+}
+
+.btn-pink {
+    background: linear-gradient(86.2deg, #FF94CB -6.15%, #FF46A5 108.47%);
+}
+
+.form-control {
+    border-radius: 40px;
+    border: 3px solid #000000;
+    padding: 18px 24px;
+}
+
+.form-control:focus {
+    border: 3px solid #A901F7;
+    box-shadow: 0 0 0 0.25rem rgb(143 70 140 / 25%);
+}
+
+.form-control-white {
+    border: 3px solid #FFFFFF !important;
+    background-color: unset !important;
+}
+
+.input-group-text {
+    border-radius: 40px 0 0 40px;
+    padding: 18px 26px;
+    color: #7028BA;
+    background-color: #FFFFFF !important;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 327px;
+    height: 327px;
+    background: linear-gradient(84.27deg, #7028BA 49.63%, #983AD5 95.53%);
+}
+
+.box-pict-member {
+    position: relative;
+    width: 227px;
+    height: 253px;
+}
+
+.bg-pict-member {
+    background: linear-gradient(95.4deg, #A901F7 -5.97%, #FE74E4 103.88%);
+    position: absolute;
+    width: 227px;
+    height: 253px;
+}
+
+.pict-member {
+    position: absolute;
+    bottom: 0;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.box-unguin {
+    padding: 20px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.bg-pink {
+    background-color: #FF7EC0;
+}
+
+.bg-magenta {
+    background-color: #CA36EF;
+}
+
+.bg-purple {
+    background-color: #A901F7;
+}
+
+.bg-pink-accent {
+    background-color: #FF9FD0;
+}
+
+.bg-magenta-accent {
+    background-color: #DF66FD;
+}
+
+.bg-purple-accent {
+    background-color: #B741FF;
+}
+
+.box-unguin-icon {
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.box-unguin-icon svg {
+    width: 30px;
+    height: 30px;
+    color: #FFFFFF;
+}
