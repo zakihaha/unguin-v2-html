@@ -53,6 +53,7 @@
 h1 {
     font-size: 50px;
     font-family: 'p-700';
+    color: #7028BA;
 }
 
 h2 {
@@ -79,7 +80,7 @@ p.thin {
 }
 
 .btn {
-    padding: 19px 52px;
+    padding: 14px 45px;
     border-radius: 40px;
     color: #FFFFFF;
     font-family: 'p-700';
@@ -186,4 +187,12 @@ p.thin {
     width: 30px;
     height: 30px;
     color: #FFFFFF;
+}
+
+.navbar {
+    padding: 32px 0;
+}
+
+#hero {
+    padding: 120px 0;
 }
