@@ -531,7 +531,7 @@ p.thin {
 }
 
 .register-char {
-    top: 385px;
+    bottom: 30px;
     left: 0;
     width: 300px;
 }
@@ -691,11 +691,6 @@ p.thin {
     #dashboard .col-md-12 {
         margin-bottom: 30px;
     }
-
-    .register-wave {
-        right: 0;
-        width: 584px;
-    }
     
     .register-leaf {
         width: 25%;
@@ -703,21 +698,13 @@ p.thin {
     }
     
     .register-flower {
-        right: 130px;
-        bottom: 0;
-        width: 250px;
-    }
-    
-    .register-char {
-        top: 385px;
-        left: 0;
-        width: 300px;
+        right: 80px;
+        width: 180px;
     }
     
     .register-grass {
-        bottom: 0;
-        width: 390px;
-        left: 120px;
+        width: 260px;
+        left: 60px;
     }
 
 }
@@ -778,6 +765,34 @@ p.thin {
         margin-top: 15px;
         font-size: 12px;
     }
+
+    .container-auth {
+        min-height: 900px;
+    }
+
+    .register-wave {
+        width: 630px;
+    }
+
+    .register-leaf {
+        display: none;
+    }
+    
+    .register-flower {
+        right: 53px;
+        width: 136px;
+    }
+    
+    .register-char {
+        width: 260px;
+    }
+
+    .register-grass {
+        width: 204px;
+        left: 60px;
+    }
+
+    
 }
 
 @media (max-width: 500px) {
@@ -803,5 +818,28 @@ p.thin {
 
     .avatar-profile {
         width: 100px;
+    }
+
+    .box-auth{
+        margin-top: 100px;
+    }
+
+    .auth-info {
+        width: 180px;
+    }
+
+    .register-flower {
+        right: 10px;
+        width: 99px;
+    }
+    
+    .register-char {
+        width: 165px;
+        bottom: 61px;
+    }
+
+    .register-grass {
+        width: 174px;
+        left: -31px;
     }
 }
