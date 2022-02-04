@@ -542,6 +542,38 @@ p.thin {
     left: 120px;
 }
 
+.login-leaf-left {
+    width: 350px;
+}
+
+.login-leaf-right {
+    right: 0;
+    width: 300px;
+}
+
+.login-leaf-right-2 {
+    right: 0;
+    top: 250px;
+    width: 280px;
+}
+
+.login-flower-left {
+    bottom: 0;
+    width: 140px;
+}
+
+.login-flower-right {
+    right: 0;
+    bottom: 0;
+    width: 360px;
+}
+
+.login-char {
+    bottom: 0;
+    width: 350px;
+    left: 50px;
+}
+
 @media (min-width: 1900px) {
     .data-info-wrapper {
         margin-top: 280px;
@@ -713,6 +745,32 @@ p.thin {
     .wave-landing {
         right: 0;
     }
+
+    .login-leaf-left {
+        width: 250px;
+    }
+    
+    .login-leaf-right {
+        width: 220px;
+    }
+    
+    .login-leaf-right-2 {
+        top: 200px;
+        width: 150px;
+    }
+    
+    .login-flower-left {
+        bottom: 0px;
+        width: 100px;
+    }
+    
+    .login-flower-right {
+        width: 260px;
+    }
+    
+    .login-char {
+        width: 250px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -791,9 +849,9 @@ p.thin {
         width: 204px;
         left: 60px;
     }
-
-    
 }
+
+
 
 @media (max-width: 500px) {
     .pad-shorten-area {
@@ -841,5 +899,35 @@ p.thin {
     .register-grass {
         width: 174px;
         left: -31px;
+    }
+
+    .login-leaf-left {
+        width: 150px;
+    }
+    
+    .login-leaf-right {
+        width: 120px;
+    }
+    
+    .login-leaf-right-2 {
+        top: 120px;
+        width: 100px;
+    }
+    
+    .login-flower-left {
+        bottom: 0px;
+        width: 80px;
+    }
+    
+    .login-flower-right {
+        width: 140px;
+    }
+    
+    .login-char {
+        width: 210px;
+    }
+
+    .login.container-auth {
+        min-height: 732px;
     }
 }
