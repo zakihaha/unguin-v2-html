@@ -13,6 +13,14 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
+            <!-- button sidebar -->
+            <button id="sidebar-toggler" type="button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="bi bi-list"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </button>
             <a class="navbar-brand" href="#">
                 <img src="assets/img/logo/unguin.svg" alt="">
             </a>
@@ -34,6 +42,8 @@
         </div>
     </nav>
 
+    <div id="body-overlay"></div>
+
     <!-- hero -->
     <section id="hero" class="hero">
         <div class="container">
@@ -54,7 +64,7 @@
     <section id="shorten-area" class="shorten-area relative">
         <img class="absolute z-1 wave-landing" src="assets/img/landing-wave.svg" alt="">
         <div class="pad-shorten-area">
-            <div class="container">
+            <div class="container" id="show-link">
                 <div class="row align-items-center">
                     <div class="col-md-6">
                         <div class="result-link">
@@ -81,7 +91,7 @@
                                     placeholder="Ketikkan link singkatmu">
                             </div>
                             <div class="text-center">
-                                <button class="btn bg-pink">Yuk</button>
+                                <a href="#show-link" class="btn bg-pink">Yuk</a>
                             </div>
                         </div>
                     </div>
@@ -142,10 +152,10 @@
                     <img class="w-100" src="assets/img/logo/aec.png" alt="">
                 </div>
                 <div class="col-md-2 col-4 mb-4">
-                    <img class="w-100" src="assets/img/logo/amikom.png" alt="">
+                    <img class="w-100" src="assets/img/logo/uny.png" alt="">
                 </div>
                 <div class="col-md-2 col-4 mb-4">
-                    <img class="w-100" src="assets/img/logo/amikom.png" alt="">
+                    <img class="w-100" src="assets/img/logo/uin.png" alt="">
                 </div>
             </div>
             <p class="mb-30px">Kreasikan link aestheticmu dan dapatkan kebebasan dalam mengelola link menggunakan fitur
@@ -153,6 +163,11 @@
             <a href="#" class="btn bg-pink">Bergabung</a>
         </div>
     </section>
+
+    <div class="relative">
+        <img class="absolute landing-leaf-left" src="assets/img/furniture/landing-leaf.png" alt="">
+        <img class="absolute landing-leaf-right" src="assets/img/furniture/landing-leaf.png" alt="">
+    </div>
 
     <!-- member -->
     <section id="member" class="member text-center">
@@ -166,19 +181,37 @@
                 <div class="col-md-4 flex-center">
                     <div class="box-pict-member flex-center">
                         <div class="bg-pict-member"></div>
-                        <img class="pict-member" src="assets/img/member/okta.png" alt="">
+                        <img class="pict-member" src="assets/img/member/zaki.png" alt="">
+                        <div id="name-tag-zaki" class="name-tag">
+                            <a target="_blank" href="https://www.linkedin.com/in/muh-zaki-choiruddin/">Muh Zaki Choiruddin</a>
+                        </div>
+                        <div id="name-tag-icon-zaki" class="name-tag-icon">
+                            <img src="assets/img/name-tag.svg" alt="">
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-4 flex-center">
                     <div class="box-pict-member flex-center">
                         <div class="bg-pict-member"></div>
                         <img class="pict-member" src="assets/img/member/okta.png" alt="">
+                        <div id="name-tag-okta" class="name-tag">
+                            <a target="_blank" href="https://www.linkedin.com/in/rizky-oktafian-nur-muhammad/">Rizky Oktafian</a>
+                        </div>
+                        <div id="name-tag-icon-okta" class="name-tag-icon">
+                            <img src="assets/img/name-tag.svg" alt="">
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-4 flex-center">
                     <div class="box-pict-member flex-center">
                         <div class="bg-pict-member"></div>
-                        <img class="pict-member" src="assets/img/member/okta.png" alt="">
+                        <img class="pict-member" src="assets/img/member/meisha.png" alt="">
+                        <div id="name-tag-meisha" class="name-tag">
+                            <a target="_blank" href="https://www.linkedin.com/in/meishafifah/">Meisha Afifah Putri</a>
+                        </div>
+                        <div id="name-tag-icon-meisha" class="name-tag-icon">
+                            <img src="assets/img/name-tag.svg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -187,7 +220,7 @@
 
     <!-- footer -->
     <footer class="text-center nick-white bg-purple py-4">
-        <p class="p-14px bold mb-0">Developed by OSORA</p>
+        <p class="p-14px thin mb-0">Developed by OSORA</p>
     </footer>
 
     <script src="assets/js/bootstrap.min.js"></script>
