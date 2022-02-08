@@ -364,9 +364,31 @@ p.thin {
     min-height: 100vh;
 }
 
-.illustration-hero {
+.hero-girl {
     width: 60%;
 }
+
+.hero-accessories {
+    width: 70%;
+    position: absolute;
+    left: 12%;
+    top: -12%;
+    transform: translate(-50%,-50%);
+    animation: hero-accessories 15s infinite;
+    z-index: -1;
+}
+
+@keyframes hero-accessories {
+    0% {
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        transform: rotate(360deg);
+    }
+
+
+  }
 
 .vh-100-vertical-center-hero {
     display: flex;
@@ -926,7 +948,7 @@ p.thin {
         flex-direction: column-reverse;
     }
 
-    .illustration-hero {
+    .hero-girl {
         margin-bottom: 30px;
     }
 
