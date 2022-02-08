@@ -135,6 +135,7 @@ p.thin {
 
 .overflow-wrap-anywhere {
     overflow-wrap: anywhere;
+    word-break: break-all;
 }
 
 .nick-white {
@@ -207,10 +208,12 @@ p.thin {
 
 .bg-purple {
     background: linear-gradient(95.4deg, #b283e3 -5.97%, #8c35c4 103.88%);
+    background-image: -webkit-linear-gradient(95.4deg, #b283e3 -5.97%, #8c35c4 103.88%);
 }
 
 .bg-pink {
     background: linear-gradient(86.2deg, #ff94cb -6.15%, #ff46a5 108.47%);
+    background-image: -webkit-linear-gradient(86.2deg, #ff94cb -6.15%, #ff46a5 108.47%);
 }
 
 .form-control {
@@ -263,6 +266,20 @@ p.thin {
     padding: 12px 26px;
     color: #7028ba;
     background-color: #ffffff !important;
+}
+
+.input-password-wrapper {
+    position: relative;
+}
+
+.input-password-wrapper a {
+    position: absolute;
+    top: 12px;
+    right: 30px;
+}
+
+#eye-open {
+    display: none;
 }
 
 .navbar-brand img {
@@ -318,6 +335,10 @@ p.thin {
     z-index: 1;
 }
 
+.opacity-05 {
+    opacity: 0.5 !important;
+}
+
 .bg-pict-member {
     background: linear-gradient(95.4deg, #a901f7 -5.97%, #fe74e4 103.88%);
     position: absolute;
@@ -329,7 +350,7 @@ p.thin {
 .pict-member {
     position: absolute;
     bottom: 0;
-    width: 190px;
+    width: 210px;
 }
 
 .flex-center {
@@ -564,7 +585,7 @@ p.thin {
 /* auth */
 .container-auth {
     min-height: 800px;
-    height: calc(100vh - 65px);
+    height: 100vh;
     overflow: hidden;
     position: relative;
 }
